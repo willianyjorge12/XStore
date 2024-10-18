@@ -6,11 +6,66 @@
     list-style: none;
     font-family: "Lexend", sans-serif;
 }
+
 header{
-    background-image: url(../assets/img/multi-versus.svg);
-}
-nav {
-    display: flex;
-    justify-content: space-between;
+    background-image: url("./assets/img/banner.svg");
+
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16px 92px;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        & ul{
+            display: flex;
+            gap: 48px;
+        }
+    }
+
+    & .content{
+        display: flex;
+        gap: 64px;
+        flex-direction: column;
+
+        & div{
+            display: flex;
+            flex-direction: column;
+            gap: 17px;
+            color: #fff;
+        }
+        
+    }
+
+    & .btns{
+        display: flex;
+        gap: 10px;
+    }
     
+    & button{
+        display: flex;
+        gap: 10px;
+        border-radius: 8px;
+        padding: 8px 17.5px;
+        color: whitesmoke;
+        background-color: blue;
+        border: none;
+    }
+    & .text{
+        display: flex;
+        flex-direction: column;
+        width: Hug (473px)px;
+        height: Hug (120px)px;
+        gap: 16px;
+        opacity: 0px;
+    }
+
 }
+
+main{
+  
+}
+
